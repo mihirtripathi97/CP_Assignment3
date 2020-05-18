@@ -35,7 +35,7 @@ void main()
     float X[n],a,b,c,d,rF,cF;
 
     float karr[n];
-    fftwf_complex out[n], fout[n],in[n];
+    fftwf_complex out[n],in[n];
     fftwf_plan p;
 
 
