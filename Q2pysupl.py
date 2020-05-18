@@ -1,6 +1,8 @@
 
 
 #Please read description given in Q2.c file before exicuting this file.
+#Q1rl.txt file (which includes results of first question is used here to make comparision between results from Q1 and 2
+#make sure that q1rl.txt is also in the same folder as this program before exicuting this code.
 
 
 import numpy as np
