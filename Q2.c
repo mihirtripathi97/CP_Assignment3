@@ -63,16 +63,6 @@ void main()
     }
 
 
-
-
-
-    for(int i = 0; i<n;++i)
-    {
-        //printf("%f\n",creal(in[i]));        //Prints y[i]
-    }
-
-
-
     p = fftwf_plan_dft_1d(n, in, out,FFTW_FORWARD,FFTW_ESTIMATE);
     fftwf_execute(p);
 
@@ -117,7 +107,7 @@ void main()
         rF = (a*c - b*d);
         cF = (a*d + b*c);
 
-        //printf("\n rf = %f",rF);
+        
 
         out[i] = dx*( rF )/sqrt(2.0*M_PI) + I*dx*( cF )/sqrt(2.0*M_PI);
     }
